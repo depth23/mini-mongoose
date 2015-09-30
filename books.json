@@ -1,0 +1,35 @@
+// This is dummy data you can use for your app.
+
+{
+  "books": [{
+    "title": "code words and stuff",
+    "author": "Master Splinter",
+    "genre": "how-to",
+    "pages": 2,
+    "checked_out": false
+  },{
+    "title": "Homer Simpson: A Tale Of American Awesomeness",
+    "author": "Hulk Hogan",
+    "genre": "biography",
+    "pages": 1452,
+    "checked_out": false
+  },{
+    "title": "Rick and Morty",
+    "author": "Dan Harmon",
+    "genre": "unknown",
+    "pages": 54385,
+    "checked_out": false
+  },{
+    "title": "the space bar and you",
+    "author": "the greatest generation",
+    "genre": "how-to",
+    "pages": 1944,
+    "checked_out": false
+  },{
+    "title": "How To Frolick",
+    "author": "Richard Simmons",
+    "genre": "how-to",
+    "pages": 420,
+    "checked_out": true
+  }]
+}
