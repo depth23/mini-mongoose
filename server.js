@@ -6,7 +6,7 @@ var mongoose = require('mongoose');
 
 // Controllers
 var BooksController = require('./controllers/BooksController');
-
+var AuthorsController = require('./controllers/AuthorsController');
 // Express
 var app = express();
 
@@ -20,6 +20,12 @@ app.get('/books', BooksController.read);
 app.get('/books/:id', BooksController.show);
 app.put('/books/:id', BooksController.update);
 app.delete('/books/:id', BooksController.destroy);
+
+app.post('/authors', AuthorsController.create);
+app.get('/authors', AuthorsController.read);
+app.get('/authors/:id', AuthorsController.show);
+app.put('/authors/:id', AuthorsController.update);
+app.delete('/authors/:id', AuthorsController.destroy);
 
 // Connections
 var port = 3000;

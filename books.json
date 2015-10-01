@@ -3,13 +3,13 @@
 {
   "books": [{
     "title": "code words and stuff",
-    "author": "Master Splinter",
+    "author": "560d6fae30a6edbc03a32d05",
     "genre": "how-to",
     "pages": 2,
     "checked_out": false
   },{
     "title": "Homer Simpson: A Tale Of American Awesomeness",
-    "author": "Hulk Hogan",
+    "author": "560d6fed30a6edbc03a32d06",
     "genre": "biography",
     "pages": 1452,
     "checked_out": false
